@@ -1,0 +1,26 @@
+git status
+pwd
+cd ~/tutorial-git-UTN
+ls
+cd repogit
+ls
+git status
+cd ~
+git clone git@github.com:Tiago-Ahrens/tutorial-git-UTN.git
+ls ~/.ssh
+vagrant halt
+sudo apt update
+sudo apt install vagrant
+vagrant --version
+vagrant halt
+vagrant init
+cd ~/repogit/VM-TP_AySO
+git add .
+git status
+git commit -m "ADD: Comando para capturar y analizar trafico de red."
+touch README.md
+nano README.md
+git add README.md
+git commit -m "doc: Creación y actualización del README.md"
+git push
+history -a
